@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/396745172985793835/8921427226114dea8f022ea025e24238/artifacts
+end_time: 1783162235904
+entry_point_name: ''
+experiment_id: '396745172985793835'
+lifecycle_stage: active
+run_id: 8921427226114dea8f022ea025e24238
+run_name: adaptable-kit-705
+run_uuid: 8921427226114dea8f022ea025e24238
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783162235898
+status: 3
+tags: []
+user_id: runner
