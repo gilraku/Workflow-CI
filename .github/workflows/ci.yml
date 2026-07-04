@@ -41,7 +41,14 @@ jobs:
           import mlflow
           mlflow.set_tracking_uri('file:./mlruns')
           exp = mlflow.get_experiment_by_name('adult-income-classification-ci')
-          runs = mlflow.search_runs([exp.experiment_id], order_by=['start_time DESC'])
+          # 'mlflow run' membuat run pembungkus (kosong) DAN run autolog
+          # yang menyimpan model. Filter khusus run autolog agar tidak
+          # salah ambil run pembungkus yang tidak berisi artefak model.
+          runs = mlflow.search_runs(
+              [exp.experiment_id],
+              filter_string=\"tags.mlflow.autologging = 'sklearn'\",
+              order_by=['start_time DESC'],
+          )
           print(runs.iloc[0].run_id)
           ")
           echo "run_id=$RUN_ID" >> "$GITHUB_OUTPUT"
