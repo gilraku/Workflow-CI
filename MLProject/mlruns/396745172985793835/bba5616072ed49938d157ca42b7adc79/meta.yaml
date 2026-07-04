@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/396745172985793835/bba5616072ed49938d157ca42b7adc79/artifacts
+end_time: 1783160819335
+entry_point_name: ''
+experiment_id: '396745172985793835'
+lifecycle_stage: active
+run_id: bba5616072ed49938d157ca42b7adc79
+run_name: victorious-shark-467
+run_uuid: bba5616072ed49938d157ca42b7adc79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783160803097
+status: 3
+tags: []
+user_id: runner

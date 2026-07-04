@@ -1,0 +1,16 @@
+digest: 4b1853f2
+name: dataset
+profile: '{"num_rows": 6028, "num_elements": 84392}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "age", "required": true},
+  {"type": "long", "name": "workclass", "required": true}, {"type": "double", "name":
+  "fnlwgt", "required": true}, {"type": "long", "name": "education", "required": true},
+  {"type": "double", "name": "education.num", "required": true}, {"type": "long",
+  "name": "marital.status", "required": true}, {"type": "long", "name": "occupation",
+  "required": true}, {"type": "long", "name": "relationship", "required": true}, {"type":
+  "long", "name": "race", "required": true}, {"type": "long", "name": "sex", "required":
+  true}, {"type": "double", "name": "capital.gain", "required": true}, {"type": "double",
+  "name": "capital.loss", "required": true}, {"type": "double", "name": "hours.per.week",
+  "required": true}, {"type": "long", "name": "native.country", "required": true}]}'
+source: '{"tags": {"mlflow.user": "runner", "mlflow.source.name": "modelling.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "a4b174c0cf408a6ccca06497d86c6d0ace947ed5"}}'
+source_type: code
