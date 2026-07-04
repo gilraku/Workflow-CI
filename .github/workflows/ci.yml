@@ -69,7 +69,8 @@ jobs:
         run: |
           mlflow models build-docker \
             --model-uri "runs:/${{ steps.get_run_id.outputs.run_id }}/model" \
-            --name "adult-income-model"
+            --name "adult-income-model" \
+            --env-manager local
 
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
