@@ -29,7 +29,9 @@ jobs:
       - name: Run MLflow Project (retrain model)
         working-directory: MLProject
         run: |
-          mlflow run . -e main --env-manager=local -P data_dir=adult_preprocessing
+          mlflow run . -e main --env-manager=local \
+            --experiment-name adult-income-classification-ci \
+            -P data_dir=adult_preprocessing
 
       - name: Get latest MLflow run ID
         working-directory: MLProject
