@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/396745172985793835/fd04cb363dc44317bc9ae628161af311/artifacts
+end_time: 1783160818830
+entry_point_name: ''
+experiment_id: '396745172985793835'
+lifecycle_stage: active
+run_id: fd04cb363dc44317bc9ae628161af311
+run_name: monumental-duck-175
+run_uuid: fd04cb363dc44317bc9ae628161af311
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783160818822
+status: 3
+tags: []
+user_id: runner
