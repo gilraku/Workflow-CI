@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/396745172985793835/f92f1585755748f89676b3a58f004247/artifacts
+end_time: 1783162236399
+entry_point_name: ''
+experiment_id: '396745172985793835'
+lifecycle_stage: active
+run_id: f92f1585755748f89676b3a58f004247
+run_name: angry-stag-363
+run_uuid: f92f1585755748f89676b3a58f004247
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783162222658
+status: 3
+tags: []
+user_id: runner
