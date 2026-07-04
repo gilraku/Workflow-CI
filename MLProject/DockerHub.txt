@@ -1,0 +1,10 @@
+https://hub.docker.com/r/<docker_hub_username>/adult-income-model
+
+CATATAN UNTUK GILANG (hapus baris ini sebelum submit):
+1. Buat repository "adult-income-model" (public) di Docker Hub.
+2. Buat Access Token di Docker Hub (Account Settings > Security).
+3. Tambahkan GitHub Secrets pada repo Workflow-CI:
+   - DOCKERHUB_USERNAME = username Docker Hub kamu
+   - DOCKERHUB_TOKEN    = access token Docker Hub kamu
+4. Ganti <docker_hub_username> di atas dengan username Docker Hub kamu
+   setelah image berhasil di-push oleh workflow CI.
