@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/396745172985793835/2efac7ea85454ebd96ef65698ffd5957/artifacts
+end_time: 1783163435841
+entry_point_name: ''
+experiment_id: '396745172985793835'
+lifecycle_stage: active
+run_id: 2efac7ea85454ebd96ef65698ffd5957
+run_name: secretive-gnat-457
+run_uuid: 2efac7ea85454ebd96ef65698ffd5957
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783163435833
+status: 3
+tags: []
+user_id: runner

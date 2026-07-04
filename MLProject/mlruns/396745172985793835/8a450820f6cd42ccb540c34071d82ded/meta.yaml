@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/396745172985793835/8a450820f6cd42ccb540c34071d82ded/artifacts
+end_time: 1783163436444
+entry_point_name: ''
+experiment_id: '396745172985793835'
+lifecycle_stage: active
+run_id: 8a450820f6cd42ccb540c34071d82ded
+run_name: puzzled-bass-39
+run_uuid: 8a450820f6cd42ccb540c34071d82ded
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783163419563
+status: 3
+tags: []
+user_id: runner
